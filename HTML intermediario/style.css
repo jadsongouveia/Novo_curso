@@ -1,0 +1,74 @@
+@charset "UTF-8"; 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    
+    text-align: center;
+    background-image: url(img/fundo.jpg) ;
+}
+
+h1.h1 {
+    color: white;
+    padding-top: 10px;
+}
+
+.trabalho {
+    padding-top: 50px;
+    color: white;
+}
+
+.content {
+    display: flex;
+}
+
+.nav {
+    width: 30%;
+    padding: 30px;
+    
+}
+
+.article {
+    width: 70%;
+    background-color: lightgray;
+    padding: 30px;
+    
+}
+
+footer {
+    color: white;
+    border: 1px solid white;
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+img.jadson {
+    height: 160px;
+    width: 100%;
+}
+
+img {
+    width: 300px;
+}
+
+a:hover {
+   color: blue;
+}
+
+li {
+    background-color: rgba(246, 78, 167, 0.815);
+    border: 1px solid black;
+    border-radius: 10px 0px;
+    padding: 8px;
+    text-align: center;
+}
