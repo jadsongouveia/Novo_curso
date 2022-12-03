@@ -16,6 +16,14 @@ body {
     background-image: url(img/fundo.jpg) ;
 }
 
+li {
+    background-color: rgba(246, 78, 167, 0.815);
+    border: 1px solid black;
+    border-radius: 10px 0px;
+    padding: 8px;
+    text-align: center;
+}
+
 h1.h1 {
     color: white;
     padding-top: 10px;
@@ -41,18 +49,6 @@ h1.h1 {
     padding: 30px;
     width: 70%;
     border-radius: 20px;
-    
-}
-
-footer {
-    color: white;
-    border: 1px solid white;
-    background-color: gray;
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 7px;
-    
 }
 
 img.jadson {
@@ -68,10 +64,12 @@ a:hover {
    color: blue;
 }
 
-li {
-    background-color: rgba(246, 78, 167, 0.815);
-    border: 1px solid black;
-    border-radius: 10px 0px;
-    padding: 8px;
+footer {
+    color: white;
+    border: 1px solid white;
+    background-color: gray;
     text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 7px; 
 }
