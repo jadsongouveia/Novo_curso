@@ -1,0 +1,35 @@
+
+
+::selection {
+    color: red;
+    background-color: black;
+}
+
+p::first-line {
+    color: blueviolet;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://banner2.cleanpng.com/20180701/usg/kisspng-computer-icons-rocket-launch-spacecraft-clip-art-rocket-icon-5b38c48183c4b9.5922320915304469775397.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+    margin-right: 20px;
+}
+
+h1::after {
+    background: url(https://banner2.cleanpng.com/20180701/usg/kisspng-computer-icons-rocket-launch-spacecraft-clip-art-rocket-icon-5b38c48183c4b9.5922320915304469775397.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+    margin-right: 20px;
+}
