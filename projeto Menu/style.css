@@ -47,8 +47,37 @@ header {
     font-size: 14px;
     text-decoration: none;
     border-radius: 5px;
+    display: block;
 }
 
-.menu li a:hover {
+.menu li:hover {
     background-color: #1d52ff;
+}
+
+.menu > li:hover > .submenu, 
+.submenu > li:hover > .submenu {
+    display: block;
+} {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #1d52ff;
+    min-width: 130px;
+}
+
+.submenu li:hover {
+    background-color: #022db8;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
 }
