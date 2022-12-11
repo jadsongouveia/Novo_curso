@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+    padding: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(32, 210, 210, 0.649);
+
+    transition: width 500ms linear 500ms;
+}
+
+.box:hover {
+    width: 500px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(1, 188, 188, 0.768);
+
+    transition: width 500ms ease-in 500ms;
+}
+
+.box2:hover {
+    width: 500px;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(54, 245, 245, 0.41);
+
+    transition: width 500ms ease-out 500ms;
+}
+
+.box3:hover {
+    width: 500px;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 240, 243);
+
+    transition: width 500ms ease-in-out 500ms;
+}
+
+.box4:hover {
+    width: 500px;
+}
