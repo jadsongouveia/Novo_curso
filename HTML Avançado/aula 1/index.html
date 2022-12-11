@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="salvar.html" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+            </p>
+
+            <p>
+                <label for="isenha">Senha</label>
+                <input type="password" id="isenha" placeholder="Digite sua senha" required>
+            </p>
+
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" id="iemail" placeholder="Digite seu E-mail" required>
+            </p>
+
+            <label for="Sexo">Sexo:</label>
+            <br>
+            <input name="sexo" type="radio" value="masculino" id="masculino" required> <label for="masculino">Masculino</label>
+            <br>
+            <input name="sexo" type="radio" value="feminino" id="feminino" required> <label for="feminino">Feminino</label>
+            <br>
+            <input name="sexo" type="radio" value="nao definido" id="prefiro nao informar" required> <label for="prefiro nao informar">Prefiro nao informar</label>
+
+
+            <br><br>
+
+
+            <label for="">Habilidades:</label>
+            <br>
+            <input name="html" type="checkbox" id="html" required> <label for="html">HTML</label>
+            <br>
+            <input name="css" type="checkbox" id="css"> <label for="css">CSS</label>
+            <br>
+            <input name="javascript" type="checkbox" id="javascript"> <label for="javascript">JavaScript</label>
+
+
+            <br><br>
+
+
+            <label for="cidade">Cidade:</label>
+            <br>
+            <select name="cidade" required>
+            <option value="">--Selecione aqui--</option>
+            <option value="maceio">Maceió</option>
+            <option value="rio largo">Rio Largo</option>
+            <option value="marechal">Marechal</option>
+            <option value="satuba">Satuba</option>
+            </select>
+
+
+            <br><br>
+
+
+            <label for="carro">Carro:</label>
+            <br>
+            <select name="carro" required>
+                <optgroup label="Honda">
+                <option value="civc">Civic</option>
+                </optgroup>
+                <optgroup label="GM">
+                    <option value="celta">Celta</option>
+                </optgroup>
+                <optgroup label="Fiat">
+                    <option value="uno">Uno</option>
+                </optgroup>
+            </select>
+
+
+                <br><br>
+
+
+                <label>Digite sua fruta preferida:</label>
+                <input list="listaFrutas" type="text" placeholder="Digite sua fruta" required>
+                <datalist id="listaFrutas">
+                  <option value="abacaxi">
+                  <option value="manga">
+                  <option value="acerola">
+                  <option value="goiaba">
+                  <option value="laranja">
+                </datalist>
+
+
+                <br><br>
+
+
+                <label>Digite sua mensagem aqui:</label>
+                <br>
+                <textarea name="mensagem" cols="40" rows="15"></textarea>
+
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
