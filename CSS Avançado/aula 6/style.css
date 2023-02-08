@@ -3,12 +3,73 @@ body {
 }
 
 .box {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+    color: white;
     background-color: black;
+    transition-duration: 500ms;
+   
 }
 
 .box:hover {
-    width: 500px;
+    transform: translate(50px, 100px);
     background-color: red;
+    box-shadow: 0 0 20px black
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    transition-duration: 500ms;
+}
+
+.box2:hover {
+    transform: rotate(360deg);
+    background-color: blue;
+    box-shadow: 0 0 20px black
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    transition-duration: 500ms;
+}
+
+.box3:hover {
+    transform: rotate(30deg) scale(2);
+    background-color: blueviolet;
+    box-shadow: 0 0 20px black
+}
+
+.box4 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    transition-duration: 500ms;
+}
+
+.box4:hover {
+    transform: skew(50deg);
+    background-color: blueviolet;
+    box-shadow: 0 0 20px black
+}
+
+.box5 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    transition-duration: 500ms;
+    transform-origin: 20% 40%;
+}
+
+.box5:hover {
+    transform: rotate(360deg);
+    background-color: blueviolet;
+    box-shadow: 0 0 20px black
 }
