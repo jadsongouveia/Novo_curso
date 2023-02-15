@@ -1,0 +1,81 @@
+
+
+
+section {
+    background-color: silver;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    background-color: rgb(237, 149, 86);
+}
+
+.container-2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+
+    background-color: rgb(237, 149, 86);
+}
+
+.container-3 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+
+    background-color: rgb(237, 149, 86);
+}
+
+.container-4 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+
+    background-color: rgb(237, 149, 86);
+}
+
+.container-5 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+
+    background-color: rgb(237, 149, 86);
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
