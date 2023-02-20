@@ -1,0 +1,32 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+  
+
+}
+
+.home {
+    background-size: cover;
+    background-image: url(../images/bg-home.jpg);
+    height: 100vh; /* viewport height */
+}
+
+.home .header .nav ul{
+   display: flex;
+   list-style: none;
+}
+
+.home .header .nav ul li {
+   display: flex;
+   align-items: center;
+}
+
+.home .header .nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
