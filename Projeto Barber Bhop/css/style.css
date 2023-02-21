@@ -42,7 +42,8 @@ body {
 .home .header .nav ul li {
    display: flex;
    align-items: center;
-   margin: 0 10px;
+   justify-content: center;
+   width: 150px;
 }
 
 .home .header .nav ul li a {
@@ -76,4 +77,21 @@ body {
 .home .banner span {
    display: block;
 }
+
+.home .banner .slogan {
+   color: var(--color-primary);
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-size: 14px;
+}
+
+.home .banner h1 {
+   font-size: 120px;
+}
+
+.home .banner .slogan2 {
+   margin-bottom: 15px;
+}
+
+
 
