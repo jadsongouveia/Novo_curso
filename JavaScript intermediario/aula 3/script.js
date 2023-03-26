@@ -10,7 +10,7 @@ document.querySelector('a').innerText = '<b>teste ancora</b>'
 //SELECIONANDO MAIS DE 1 ITEM POR TAG
 let ancoras = document.querySelectorAll('a')
 
-ancoras.forEach(function(elemento){ //função anonima / callback
+ancoras.forEach(function(elemento){ //função anonima / callback 
     elemento.innerHTML = 'teste'
 })
 
@@ -18,7 +18,6 @@ ancoras.forEach(function(elemento){ //função anonima / callback
 //SELECIONANDO MAIS DE 1 ITEM POR CLASSE
 let boxes = document.querySelectorAll('.box')
 
-let count = 0
 boxes.forEach(function(box, index){
     box.innerHTML = 'box' + (index + 1)
 })
